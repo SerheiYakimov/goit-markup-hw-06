@@ -827,7 +827,7 @@ img {
   margin-top: 20px;
 }
 
-.form-input {
+.form-input-footer {
   width: 358px;
   height: 50px;
   padding-top: 15px;
@@ -854,4 +854,47 @@ img {
 .btn-footer .icon {
   fill: currentColor;
   margin-left: 10px;
+}
+.form-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 2.3;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+.form-field {
+  position: relative;
+  display: block;
+  width: 448px;
+  height: 58px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 448px;
+  height: 40px;
+  color: var(--title-color);
+}
+
+textarea {
+  resize: none;
+}
+
+.icon-modal {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
