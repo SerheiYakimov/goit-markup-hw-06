@@ -415,35 +415,37 @@
                     <use href="./images/sprite.svg#icon-close-black"></use>
                 </svg>
             </button>
-            <div class="modal-form">
-                <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>
-                <form class="form-data">
-                    <label class="form-field">
-                        <span class="form-label">Имя</span>
-                        <input type="text" class="form-input" name="name" placeholder=" ">
-                        <svg class="icon-modal" width="18" height="18">
-                            <use href="./images/sprite.svg#icon-person-black"></use>
-                        </svg>
-                    </label>
-                    
+            <form class="form-feedback" autocomplete="off">
+                <h3 class="form-title">Оставьте свои данные, мы вам перезвоним</h3>                
+                    <div class="form-data">
+                        <label class="form-label">Имя</label>
+                            <div class="input-field">
+                                <input type="text" class="form-input" name="name" placeholder=" ">
+                                <svg class="icon-modal" width="18" height="18">
+                                    <use href="./images/sprite.svg#icon-person-black"></use>
+                                </svg>
+                            </div>
+                                        
+                        <label class="form-label">Телефон</label>
+                            <div class="input-field">
+                                <input type="tel" class="form-input" name="tel">
+                                <svg class="icon-modal" width="18" height="18">
+                                    <use href="./images/sprite.svg#icon-phone-black"></use>
+                                </svg>
+                            </div>    
+                                 
+                        <label class="form-label">Почта</label> 
+                            <div class="input-field">
+                                <input type="email" class="form-input" name="email">
+                                <svg class="icon-modal" width="18" height="18">
+                                    <use href="./images/sprite.svg#icon-email-black"></use>
+                                </svg>
+                            </div>                        
+                        
+                        <label class="form-label">Комментарий</label> 
+                        <textarea name="comment" rows="5" placeholder="Введите текст"></textarea>                       
+                    </div>
 
-                    <label class="form-field">
-                        <span class="form-label">Телефон</span>
-                        <input type="tel" class="form-input" name="tel">
-                        <span class="form-icon"></span>
-                    </label>
-                   
-
-                    <label class="form-field">
-                        <span class="form-label">Почта</span>
-                        <input type="email" class="form-input" name="email">                        
-                        <span class="form-icon"></span>
-                    </label>
-                    
-                    <label class="form-field">
-                       <span class="form-label">Комментарий</span>
-                        <textarea name="comment" rows="5" placeholder="Введите текст"></textarea>                        </textarea>
-                    </label>
                     
                     <label class="form-field">
                         <input type="checkbox" class="form-input">
