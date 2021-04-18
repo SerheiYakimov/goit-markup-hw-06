@@ -863,6 +863,8 @@ img {
 }
 
 .form-feedback {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background-color: var(--title-color);
   padding: 40px;
@@ -871,8 +873,7 @@ img {
 }
 
 .form-data {
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .form-title {
@@ -895,7 +896,6 @@ img {
 }
 
 .form-input {
-  display: block;
   width: 448px;
   height: 40px;
   padding-left: 42px;
@@ -942,4 +942,15 @@ textarea:hover {
 .form-input:focus,
 .form-input:hover {
   border-color: var(--accent-color);
+}
+
+.form-agreement .form-input {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
