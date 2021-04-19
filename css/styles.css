@@ -250,7 +250,8 @@ img {
 }
 
 .button,
-.btn-footer {
+.btn-footer,
+.btn-form {
   display: inline-block;
   min-width: 200px;
   height: 50px;
@@ -944,7 +945,15 @@ textarea:hover {
   border-color: var(--accent-color);
 }
 
-.form-agreement .form-input {
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+  margin-bottom: 30px;
+  margin-left: 12px;
+}
+
+.checkbox {
   position: absolute;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -953,4 +962,31 @@ textarea:hover {
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+
+.checkbox-icon {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  border-radius: 4px;
+  margin-right: 7px;
+}
+
+.checkbox:checked + .checkbox-icon {
+  background-color: var(--accent-color);
+  background-image: url("../images/icon-check.svg");
+  background-size: contain;
+  background-origin: border-box;
+  border-color: var(--accent-color);
+}
+
+.contract {
+  color: var(--accent-color);
+}
+
+.btn-form {
+  margin-right: auto;
+  margin-left: auto;
 }
