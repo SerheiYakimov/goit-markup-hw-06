@@ -95,6 +95,10 @@ img {
   margin-top: 30px;
 }
 
+.grid-footer {
+  flex-basis: calc((50% - 45px * var(--grid-item)) / var(--grid-item));
+}
+
 .bg-title-features {
   padding-top: 94px;
 }
