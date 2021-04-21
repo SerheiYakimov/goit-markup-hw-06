@@ -934,6 +934,7 @@ textarea::placeholder {
 
 textarea:focus,
 textarea:hover {
+  outline-color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
@@ -951,6 +952,7 @@ textarea:hover {
 
 .form-input:focus,
 .form-input:hover {
+  outline-color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
