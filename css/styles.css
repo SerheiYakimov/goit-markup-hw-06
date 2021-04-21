@@ -985,6 +985,10 @@ textarea:hover {
   border-color: var(--accent-color);
 }
 
+.consent {
+  color: var(--main-text-color);
+}
+
 .contract {
   color: var(--accent-color);
 }
