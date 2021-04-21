@@ -837,6 +837,12 @@ img {
   margin-top: 20px;
 }
 
+.input-field-footer {
+  display: flex;
+  font-size: 12px;
+  color: var(--main-text-color);
+}
+
 .form-input-footer {
   width: 358px;
   height: 50px;
