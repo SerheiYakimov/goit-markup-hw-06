@@ -490,11 +490,11 @@ img {
 .dark-bg-footer > .conteiner {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-social-icon {
   display: inline-block;
-  margin-left: 70px;
 }
 
 .title-footer-icon,
@@ -828,7 +828,6 @@ img {
 .footer-form {
   width: 570px;
   height: 86px;
-  margin-left: 93px;
 }
 
 .singup-form {
